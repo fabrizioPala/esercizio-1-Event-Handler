@@ -3,6 +3,6 @@ export function MouseClicker({name}){
        console.log(`Button clicked: ${event.target.name}`)
     }
     return (
-        <button onClick={handleButtonClick}>Click me {name}</button>
+        <button name={name} onClick={handleButtonClick}>Click me {name}</button>
     )
 }
